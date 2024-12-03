@@ -1,5 +1,5 @@
 import { View, Text, Pressable } from "react-native";
-import { BEIGE_COLOR, LIGHT_CYAN } from "../constants/colors";
+import { BEIGE_COLOR } from "../constants/colors";
 import { cn } from "../lib/utils";
 
 type GoalItemProps = {

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { TextInput, View, Text, Dimensions } from "react-native";
+import { TextInput, View, Text } from "react-native";
 import Button from "./button";
 import { ActionSheetRef } from "react-native-actions-sheet";
 import ActionSheet from "react-native-actions-sheet";

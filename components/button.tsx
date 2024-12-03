@@ -1,6 +1,4 @@
 import { Text, Pressable } from "react-native";
-import { StyleProp, ViewStyle } from "react-native";
-import React from "react";
 import { cn } from "../lib/utils";
 
 type ButtonProps = {

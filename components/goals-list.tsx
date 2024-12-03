@@ -1,5 +1,5 @@
-import { View, Text, FlatList } from "react-native";
-import React, { useState } from "react";
+import { FlatList } from "react-native";
+import { useState } from "react";
 import GoalItem from "./goal-item";
 import Tabs from "./tabs";
 

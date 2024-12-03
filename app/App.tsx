@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { Alert, FlatList, Image, ScrollView, Text, View } from "react-native";
+import { Alert, Image, Text, View } from "react-native";
 
-import GoalItem from "../components/goal-item";
 import GoalInput from "../components/goal-input";
 import Button from "../components/button";
 
@@ -12,7 +11,6 @@ import { WHITE_COLOR } from "../constants/colors";
 import { GOAL_IMAGE } from "../constants/images";
 
 import "../styles/global.css";
-import Tabs from "../components/tabs";
 import GoalsList from "../components/goals-list";
 
 export default function App() {
