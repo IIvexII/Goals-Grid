@@ -6,7 +6,13 @@ type TabsProps = {
   goals: Goal[];
   selectedTab: Tab;
   onSelectTab: (tab: Tab) => void;
+  stats: {
+    all: number;
+    working: number;
+    completed: number;
+  };
 };
+
 type TabCounts = {
   [key: string]: number;
 };
